@@ -1,0 +1,24 @@
+{
+  "name": "energy-optimizer",
+  "version": "1.0.0",
+  "description": "Energy procurement optimization — minimum-cost purchasing strategy",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev":   "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
